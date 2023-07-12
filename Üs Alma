@@ -1,0 +1,15 @@
+public class ÜsAlma {
+  
+    public static void main(String[] args) {
+        int taban = 3, kuvvet = 4;
+ 
+        long sonuç = 1;
+ 
+        for (;kuvvet != 0; --kuvvet)
+        {
+            sonuç *= taban;
+        }
+ 
+        System.out.println("CEVAP = " + sonuç);
+    }
+}
